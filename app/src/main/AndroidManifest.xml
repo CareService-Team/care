@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Care">
-        <activity android:name=".Worker"></activity>
+        <activity android:name=".SocialWorkerJoin"></activity>
+        <activity android:name=".ElderlyJoin" />
+        <activity android:name=".Join" />
+        <activity android:name=".Worker" />
         <activity android:name=".LookUp" />
         <activity android:name=".CheckThing" />
         <activity android:name=".NeedThing" />
