@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/w_map"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="지도" />
+    <item
+        android:id="@+id/w_list"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="목록" />
+    <item
+        android:id="@+id/w_thing"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="물품" />
+    <item
+        android:id="@+id/w_mypage"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="마이페이지" />
+</menu>
