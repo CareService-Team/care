@@ -5,25 +5,31 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
-public class Join extends AppCompatActivity {
+public class MyPage extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_join);
+        setContentView(R.layout.activity_my_page);
 
-        findViewById(R.id.btnSocialWorker).setOnClickListener(new View.OnClickListener() {
+        Button button1 = findViewById(R.id.button1);
+        Button button2 = findViewById(R.id.button2);
+
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SocialWorkerJoin.class);
+                Intent intent = new Intent(getApplicationContext(), MyInfo.class);
                 startActivity(intent);
             }
         });
-        findViewById(R.id.btnElderly).setOnClickListener(new View.OnClickListener() {
+
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), ElderlyJoin.class);
+                Intent intent = new Intent(getApplicationContext(), MappingList.class);
                 startActivity(intent);
             }
         });

@@ -1,13 +1,13 @@
-package ddwucom.mobile.finalproject.careservice;
+package com.example.care;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class mapping_list extends AppCompatActivity {
+public class MappingList extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mapping_list);
+        setContentView(R.layout.activity_mapping_list);
     }
 }

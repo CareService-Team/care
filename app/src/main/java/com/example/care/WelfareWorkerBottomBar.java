@@ -8,7 +8,7 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class Worker extends AppCompatActivity {
+public class WelfareWorkerBottomBar extends AppCompatActivity {
 
     Fragment fragment_map;
     Fragment fragment_list;
@@ -18,7 +18,7 @@ public class Worker extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_worker);
+        setContentView(R.layout.activity_welfare_worker_bottom_bar);
 
         fragment_map = new FragmentMap();
         fragment_list = new FragmentList();

@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class OldAndWeak extends AppCompatActivity {
+public class WelfareWorkerJoin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_old_and_weak);
+        setContentView(R.layout.activity_welfare_worker_join);
     }
 }
