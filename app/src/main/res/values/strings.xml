@@ -187,4 +187,9 @@ eXpert 서비스 및 eXpert 센터 가입 등록정보 : 신청일로부터 6개
 전화번호 : 1588-3820
 이메일 주소 : privacy@naver.com
     </string>
+
+    //네이버 로그인
+    <string name="naver_client_id">mUsAjhZRKQ6B6EYt9aSf</string>
+    <string name="naver_client_secret">1KexLwm3_7</string>
+    <string name="naver_client_name">care</string>
 </resources>

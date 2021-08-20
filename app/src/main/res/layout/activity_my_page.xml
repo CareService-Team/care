@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="매핑 리스트"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/btnFindId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent" />
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.064" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnFindId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="392dp"

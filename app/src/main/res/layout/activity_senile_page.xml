@@ -71,7 +71,7 @@
         app:layout_constraintVertical_bias="0.151" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnFindId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="신청한 물품 확인하기"

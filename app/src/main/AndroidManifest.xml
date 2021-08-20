@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Care">
-        <activity android:name=".WelfareWorkerJoin"></activity>
+        <activity android:name=".WelfareWorkerJoin" />
         <activity android:name=".SenileJoin" />
         <activity android:name=".SelectJoinType" />
         <activity android:name=".WelfareWorkerBottomBar" />
@@ -23,9 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <meta-data
-            android:name="com.naver.maps.map.CLIENT_ID"/>
-            android:value="yn05w0fpb6"/>
+
+        <meta-data android:name="com.naver.maps.map.CLIENT_ID" />
 
         <activity android:name=".MyPage">
             <intent-filter>
@@ -34,7 +33,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
