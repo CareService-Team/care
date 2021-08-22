@@ -25,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnJoin).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SelectJoinType.class);
+//  기존              Intent intent = new Intent(getApplicationContext(), SelectJoinType.class);
+                Intent intent = new Intent(getApplicationContext(), WelfareWorkerBottomBar.class);
+
                 startActivity(intent);
             }
         });

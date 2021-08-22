@@ -26,7 +26,6 @@ public class WelfareWorkerBottomBar extends AppCompatActivity {
         fragment_mypage = new FragmentMypage();
 
         getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment_map).commit();
-
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

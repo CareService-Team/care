@@ -18,7 +18,7 @@ allprojects {
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
         maven{
-            url 'http://navercorp.bintray.com/maps'
+            url 'https://naver.jfrog.io/artifactory/maven/'
         }
         //네이버 지도 api를 사용하기 위한 수정사항
     }
