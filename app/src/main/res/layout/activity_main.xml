@@ -31,7 +31,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="40dp"
             android:orientation="horizontal">
 
             <TextView
@@ -89,6 +89,58 @@
                 android:padding="8dp" />
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/autoLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:text="자동로그인" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnFindId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:text="아이디 찾기"
+                    android:textColor="@color/black"
+                    app:backgroundTint="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="|"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnFindPwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="#00ff0000"
+                    android:text="비밀번호 찾기"
+                    android:textColor="#000000"
+                    app:backgroundTint="#FFFFFF" />
+
+            </LinearLayout>
+        </LinearLayout>
+
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
@@ -96,110 +148,27 @@
             android:layout_gravity="center"
             android:layout_marginStart="24dp"
             android:layout_marginLeft="24dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="24dp"
             android:layout_marginRight="24dp"
             android:text="로그인"
+            android:textSize="16sp"
             app:backgroundTint="#F88D8D" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btnJoin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:background="#00ff0000"
-                android:text="회원가입 >"
-                android:textColor="#000000"
-                app:backgroundTint="#FFFFFF" />
-
-            <Button
-                android:id="@+id/btnFindId"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:background="#00ff0000"
-                android:text="아이디찾기 >"
-                android:textColor="@color/black"
-                app:backgroundTint="@color/white" />
-
-            <Button
-                android:id="@+id/btnFindPwd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginEnd="24dp"
-                android:layout_marginRight="24dp"
-                android:background="#00ff0000"
-                android:text="비밀번호찾기 >"
-                android:textColor="#000000"
-                app:backgroundTint="#FFFFFF" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <View
-                android:layout_width="140dp"
-                android:layout_height="1dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:background="#B1B1B1" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginEnd="24dp"
-                android:layout_marginRight="24dp"
-                android:text="또는"
-                android:textSize="18sp" />
-
-            <View
-                android:layout_width="140dp"
-                android:layout_height="1dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginEnd="24dp"
-                android:layout_marginRight="24dp"
-                android:background="#B1B1B1" />
-
-        </LinearLayout>
-
-        <com.nhn.android.naverlogin.ui.view.OAuthLoginButton
-            android:id="@+id/btnNaverLogin"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <Button
-            android:id="@+id/btnKakao"
+            android:id="@+id/btnJoin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
             android:layout_marginStart="24dp"
             android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="24dp"
             android:layout_marginRight="24dp"
-            android:layout_marginBottom="4dp"
-            android:text="카카오톡 로그인"
-            app:backgroundTint="#F5DC03" />
+            android:text="회원가입"
+            android:textSize="16sp"
+            app:backgroundTint="#DACFCF" />
+
 
     </LinearLayout>
 
